@@ -1,0 +1,23 @@
+# Nuxt开发/构建输出
+.output
+.nuxt
+
+# Node依赖
+node_modules
+
+# 日志
+logs
+*.log
+
+# 其他
+.DS_Store
+
+# 本地环境文件
+.env.*
+!.env.example
+
+# vscode配置
+.vscode
+
+# idea配置
+.idea

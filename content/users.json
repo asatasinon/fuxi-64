@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "email": "admin@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "test",
+      "password": "test123",
+      "email": "test@example.com",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "username": "demo",
+      "password": "demo123",
+      "email": "demo@example.com",
+      "role": "user"
+    }
+  ],
+  "thirdPartyAccounts": [
+    {
+      "id": 1,
+      "platform": "wechat",
+      "openId": "wx_123456",
+      "username": "微信用户1",
+      "bindUserId": 1
+    },
+    {
+      "id": 2,
+      "platform": "qq",
+      "openId": "qq_123456",
+      "username": "QQ用户1",
+      "bindUserId": 2
+    },
+    {
+      "id": 3,
+      "platform": "bilibili",
+      "openId": "bili_123456",
+      "username": "哔哩用户1",
+      "bindUserId": 3
+    }
+  ]
+} 
